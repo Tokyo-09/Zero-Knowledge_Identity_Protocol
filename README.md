@@ -1,5 +1,3 @@
-# Русская версия [(README)](./README_RU.md)
-
 ## RZIP is a protocol for decentralized digital identity management
 
 It allows individuals to generate, store, and verify claims about themselves—such as age, citizenship, and academic achievements—without relying on centralized registries or third parties.
@@ -20,16 +18,14 @@ Constructive comments, suggestions for threat modeling, and help with testing ar
 
 ## Examples / Additional modules
 
-[**RZIP-Migrant-module**](examples/rzip-migrant-zk/README.md) - System for verifying the migration status of foreign citizens in Russia using the Zero-Knowledge Identity Protocol. 
-
 ## Installation
 
 For this, you need Rust 1.70+ [(link)](https://rustup.rs/)
 
 ```
 # Clone the repository
-git clone https://github.com/Tokyo-09/Russian_Zero-Knowledge_Identity_Protocol.git
-cd Russian_Zero-Knowledge_Identity_Protocol
+git clone https://github.com/Tokyo-09/Zero-Knowledge_Identity_Protocol.git
+cd Zero-Knowledge_Identity_Protocol
 
 # Build the project
 cargo build --release
